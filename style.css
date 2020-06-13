@@ -4,6 +4,10 @@
   font-family: "Inter";
 }
 
+html, body {
+  background: #ecf0f1;
+}
+
 .wrapper {
   max-width: 1000px;
   width: 90%;
