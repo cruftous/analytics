@@ -8,6 +8,7 @@
 
 const hdr = document.querySelector("h2");
 
-hdr.addEventListener("click",() => {
-  this.innerHTML = "Welcome!";
+hdr.addEventListener("click",(e) => {
+  console.log('something works here!');
+  e.target.innerHTML = "Welcome!";
 });
